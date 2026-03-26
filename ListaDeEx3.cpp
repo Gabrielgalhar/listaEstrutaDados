@@ -33,17 +33,17 @@ int main() {
     nodo2->esq = nodo1;
     nodo2->dir = nodo4;
 
-    //Exercicio 1
+    //Exercicio 1 adicionando o no 10 como filho para a direita
     Nodo *nodo10 = criarNodo(10);
     nodo8->dir = nodo10;
 
-    //Exercico 2
+    //Exercico 2 aqui imprime valor do nodo4 a partir do nodo5
     printf("%d\n", nodo5->esq->dir->valor);
 
-    //Exercicio 3
+    //Exercicio 3 funçao void imprimir e seu uso no main
     imprimir(nodo5);
 
-    //Exercicio 4
+    //Exercicio 4 aqui estamos verificando se possui filjo a esquerda
     if (nodo8->esq == NULL) {
         printf("Vazio\n");
     }
